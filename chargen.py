@@ -19,6 +19,7 @@ class Character:
         self.race_chooser()
         self.class_chooser()
         self.hp_gen()
+        self.name_gen()
 
     def generate_abilities(self):
         self.strength = utility.dice(3, 6)
@@ -136,3 +137,30 @@ class Character:
                 self.hp = 1
         elif self.level >= 1:
             self.hp = utility.dice(self.level, class_hd_dict[self.charclass]) + self.constitution_modifier * self.level
+    
+    def name_gen(self):
+        if self.race == "Human":
+            if self.sex == "Male":
+                self.name = utility.random_line("data/malenames.txt")
+            elif self.sex == "Female":
+                self.name = utility.random_line("data/femalenames.txt")
+        elif self.race == "Dwarf":
+            if self.sex == "Male":
+                self.name = utility.random_line("data/dwarfmalenames.txt")
+            elif self.sex == "Female":
+                self.name = utility.random_line("data/dwarffemalenames.txt")
+        elif self.race == "Elf":
+            if self.sex == "Male":
+                self.name = utility.random_line("data/elfmalenames.txt")
+            elif self.sex == "Female":
+                self.name = utility.random_line("data/elffemalenames.txt")
+        elif self.race == "Zaharan":
+            if self.sex == "Male":
+                self.name = utility.random_line("data/zaharanmalenames.txt")
+            elif self.sex == "Female":
+                self.name = utility.random_line("data/zaharanfemalenames.txt")
+        else:
+            if self.sex == "Male":
+                self.name = utility.random_line("data/malenames.txt")
+            elif self.sex == "Female":
+                self.name = utility.random_line("data/femalenames.txt")
