@@ -1,1 +1,115 @@
-{"leather armor": {"name": "Leather Armor", "ac": 1, "type": "Armor", "damage": 0, "encumbrance": 1, "magical": "False"}}
+{
+    "default": {
+        "name": "Default",
+        "ac": 0,
+        "type": "Default",
+        "damage": {
+            "number": 0,
+            "sides": 0
+        },
+        "encumbrance": 0,
+        "magical": "False"
+    },
+    "leather armor": {
+        "name": "Leather Armor",
+        "ac": 2,
+        "type": "Armor",
+        "damage": {
+            "number": 0,
+            "sides": 0
+        },
+        "encumbrance": 2,
+        "magical": "False"
+    },
+    "hide armor": {
+        "name": "Hide Armor",
+        "ac": 1,
+        "type": "Armor",
+        "damage": {
+            "number": 0,
+            "sides": 0
+        },
+        "encumbrance": 1,
+        "magical": "False"
+    },     "ring mail": {
+        "name": "Ring Mail",
+        "ac": 3,
+        "type": "Armor",
+        "damage": {
+            "number": 0,
+            "sides": 0
+        },
+        "encumbrance": 3,
+        "magical": "False"
+    },     "padded armor": {
+        "name": "Padded Armor",
+        "ac": 1,
+        "type": "Armor",
+        "damage": {
+            "number": 0,
+            "sides": 0
+        },
+        "encumbrance": 1,
+        "magical": "False"
+    },
+    "robes": {
+        "name": "Robes",
+        "ac": 0,
+        "type": "Armor",
+        "damage": {
+            "number": 0,
+            "sides": 0
+        },
+        "encumbrance": 1,
+        "magical": "False"
+    }, "chain mail": {
+        "name": "Chain Mail",
+        "ac": 4,
+        "type": "Armor",
+        "damage": {
+            "number": 0,
+            "sides": 0
+        },
+        "encumbrance": 4,
+        "magical": "False"
+    }, "lamellar armor": {
+        "name": "Lamellar Armor",
+        "ac": 5,
+        "type": "Armor",
+        "damage": {
+            "number": 0,
+            "sides": 0
+        },
+        "encumbrance": 5,
+        "magical": "False"
+    }, "plate armor": {
+        "name": "Lamellar Armor",
+        "ac": 6,
+        "type": "Armor",
+        "damage": {
+            "number": 0,
+            "sides": 0
+        },
+        "encumbrance": 6,
+        "magical": "False"
+    }, "banded plate armor": {
+        "name": "Banded Plate Armor",
+        "ac": 5,
+        "type": "Armor",
+        "damage": {
+            "number": 0,
+            "sides": 0
+        },
+        "encumbrance": 5,
+        "magical": "False"
+    }, "sheild": {
+        "name": "Shield",
+        "ac": 1,
+        "type": "Armor",
+        "damage": {
+            "number": 0,
+            "sides": 0
+        },
+        "encumbrance": 1,
+        "magical": "False"
+    }}

@@ -2,16 +2,25 @@
 
 import utility
 import random
+import json
+import equipment
 
+class Template:
+    def __init__(self):
+        self.name = "Default"
+        self.armor = "Default"
+        self.proficiencies = ""
+        self.equipment = ""
 
 class Character:
     def __init__(self, level):
+        self.load_equipment()
         self.level = level
         self.hp = 1
-        self.weapon = "Default"
-        self.armor = "Default"
+        self.weapon = self.equipment_dict["Default"]
+        self.armor = self.equipment_dict["Robes"]
         self.ac = 0
-        self. damage = 0
+        self. damage = (0,0)
         self.class_type = "Martial"
         self.sex = random.choice(["Male", "Female"])
         self.generate_abilities()
@@ -20,6 +29,44 @@ class Character:
         self.class_chooser()
         self.hp_gen()
         self.name_gen()
+        self.load_templates()
+        self.equip_armor(self.template.armor)
+
+    def load_equipment(self):
+        with open("data/equipment.json", "r") as equipment_file:
+            self.equipment_source_dict = json.load(equipment_file)
+        self.equipment_dict = {}
+        for item in self.equipment_source_dict:
+            self.equipment_dict[self.equipment_source_dict[item]["name"]] = equipment.Item()
+            self.equipment_dict[self.equipment_source_dict[item]["name"]].name = self.equipment_source_dict[item]["name"]
+            self.equipment_dict[self.equipment_source_dict[item]["name"]].damage = (self.equipment_source_dict[item]["damage"]["number"], self.equipment_source_dict[item]["damage"]["sides"])
+            self.equipment_dict[self.equipment_source_dict[item]["name"]].type = self.equipment_source_dict[item]["type"]
+            self.equipment_dict[self.equipment_source_dict[item]["name"]].ac = self.equipment_source_dict[item]["ac"]
+            self.equipment_dict[self.equipment_source_dict[item]["name"]].encumbrance = self.equipment_source_dict[item]["encumbrance"]
+            if self.equipment_source_dict[item]["magical"] == "True":
+                self.equipment_dict[self.equipment_source_dict[item]["name"]].magical = True
+            elif self.equipment_source_dict[item]["magical"] == "False":
+                self.equipment_dict[self.equipment_source_dict[item]["name"]].magical = False
+
+    def load_templates(self):
+        with open("data/char_database.json", "r") as template_file:
+            self.template_source_dict = json.load(template_file)
+            if self.level >= 1:
+                roll = utility.dice(3,6)
+                self.template = Template()
+                self.template.name = self.template_source_dict[self.charclass]["templates"][str(roll)]["name"]
+                if "armor" in self.template_source_dict[self.charclass]["templates"][str(roll)].keys():
+                    self.template.armor = self.template_source_dict[self.charclass]["templates"][str(roll)]["armor"]
+                else:
+                    self.template.armor = "Robes"
+                self.template.proficiencies = self.template_source_dict[self.charclass]["templates"][str(roll)]["proficiencies"]
+                self.template.equipment = self.template_source_dict[self.charclass]["templates"][str(roll)]["equipment"]
+            else:
+                self.template = Template()
+                self.template.name = ""
+                self.template.armor = "Robes"
+                self.template.proficiencies = {}
+                self.template.equipment = ""
 
     def generate_abilities(self):
         self.strength = utility.dice(3, 6)
@@ -57,7 +104,7 @@ class Character:
 
     def race_chooser(self):
         tentative_race = random.choice(
-            ["Human", "Human", "Elf", "Dwarf", "Nobiran", "Zaharan"])
+            ["Human", "Human", "Human", "Human", "Human", "Human", "Elf", "Dwarf", "Nobiran", "Zaharan"])
         if tentative_race == "Dwarf" and self.constitution >= 9:
             self.race = "Dwarf"
         elif tentative_race == "Elf":
@@ -137,6 +184,8 @@ class Character:
                 self.hp = 1
         elif self.level >= 1:
             self.hp = utility.dice(self.level, class_hd_dict[self.charclass]) + self.constitution_modifier * self.level
+            if self.hp < 1:
+                self.hp = 1
     
     def name_gen(self):
         if self.race == "Human":
@@ -164,3 +213,10 @@ class Character:
                 self.name = utility.random_line("data/malenames.txt")
             elif self.sex == "Female":
                 self.name = utility.random_line("data/femalenames.txt")
+    
+    def equip_armor(self, armor):
+        self.armor = self.equipment_dict[armor]
+        self.ac = self.armor.ac
+
+    def template_chooser(self):
+        self.template = self.template_dict[self.charclass][str(utility.dice(3, 6))]
