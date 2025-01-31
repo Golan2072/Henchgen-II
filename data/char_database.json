@@ -4,96 +4,112 @@
             "3": {
                 "name": "Hedge Wizard",
                 "proficiencies": "Familiar (Owl), Healing, Animal Husbandry",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "equipment": "Owl familiar, musty old spellbook with slipperiness and ventriloquism, gnarled oaken staff, simple robe, leather shoes, medicine bag, 1lb comfrey, 2 weeks\u2019 iron rations"
             },
             "4": {
                 "name": "Hedge Wizard",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Familiar (Owl), Healing, Animal Husbandry",
                 "equipment": "Owl familiar, musty old spellbook with slipperiness and ventriloquism, gnarled oaken staff, simple robe, leather shoes, medicine bag, 1lb comfrey, 2 weeks\u2019 iron rations"
             },
             "5": {
                 "name": "Soothsayer",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Soothsaying, Performance (Storytelling), Theology",
                 "equipment": "Enameled spellbook with protection from evil and magic mouth, smooth-worn staff, blue robe with crescents, leather belt, low boots, backpack, ornamental crystal ball (20gp value), quill and ink, 2 weeks\u2019 iron rations"
             },
             "6": {
                 "name": "Soothsayer",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Soothsaying, Performance (Storytelling), Theology",
                 "equipment": "Enameled spellbook with protection from evil and magic mouth, smooth-worn staff, blue robe with crescents, leather belt, low boots, backpack, ornamental crystal ball (20gp value), quill and ink, 2 weeks\u2019 iron rations"
             },
             "7": {
                 "name": "Necromancer",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Black Lore of Zahar, Alchemy, Healing",
-                "equipment": "Iron-bound snakeskin spellbook with choking grip and darkness, curved sacrificial dagger, grey robes, leather belt, leather gloves, high boots, backpack, 1lb birthwort, 1lb goldenrod, 1lb woundwort, quill and ink, 2 weeks\u2019 iron rations, 5gp"
+                "equipment": "Iron-bound snakeskin spellbook with choking grip and darkness, curved sacrificial dagger, grey Cassock, leather belt, leather gloves, high boots, backpack, 1lb birthwort, 1lb goldenrod, 1lb woundwort, quill and ink, 2 weeks\u2019 iron rations, 5gp"
             },
             "8": {
                 "name": "Necromancer",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Black Lore of Zahar, Alchemy, Healing",
-                "equipment": "Iron-bound snakeskin spellbook with choking grip and darkness, curved sacrificial dagger, grey robes, leather belt, leather gloves, high boots, backpack, 1lb birthwort, 1lb goldenrod, 1lb woundwort, quill and ink, 2 weeks\u2019 iron rations, 5gp"
+                "equipment": "Iron-bound snakeskin spellbook with choking grip and darkness, curved sacrificial dagger, grey Cassock, leather belt, leather gloves, high boots, backpack, 1lb birthwort, 1lb goldenrod, 1lb woundwort, quill and ink, 2 weeks\u2019 iron rations, 5gp"
             },
             "9": {
                 "name": "Elementalist",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Elementalism, Naturalism, Alchemy",
                 "equipment": "Wood-paneled spellbook with burning hands and detect magic, gnarled oaken quarterstaff, 5 darts, four-colored cassock with hood, leather belt, low boots, backpack, quill and ink, 2 weeks\u2019 iron rations, 57gp"
             },
             "10": {
                 "name": "Elementalist",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Elementalism, Naturalism, Alchemy",
                 "equipment": "Wood-paneled spellbook with burning hands and detect magic, gnarled oaken quarterstaff, 5 darts, four-colored cassock with hood, leather belt, low boots, backpack, quill and ink, 2 weeks\u2019 iron rations, 57gp"
             },
             "11": {
                 "name": "Magical Scholar",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Loremastery, Collegiate Wizardry, Knowledge (Astrology)",
                 "equipment": "Well-kept spellbook with sleep and read languages, rune-etched staff, blue mage\u2019s cassock, leather belt, low boots, backpack, quill and ink, 1 week\u2019s iron rations, 80gp"
             },
             "12": {
                 "name": "Magical Scholar",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Loremastery, Collegiate Wizardry, Knowledge (Astrology)",
                 "equipment": "Well-kept spellbook with sleep and read languages, rune-etched staff, blue mage\u2019s cassock, leather belt, low boots, backpack, quill and ink, 1 week\u2019s iron rations, 80gp"
             },
             "13": {
                 "name": "Eunuch Sorcerer",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Mystic Aura, Intimidation, Theology",
-                "equipment": "Rolled papyrus spellbook with summon berserkers and wall of smoke, wavy_x0002_bladed dagger, black and gold Somirean robes, polished iron skullcap, leather belt, low boots, backpack, quill and ink, 2 weeks\u2019 iron rations, 95gp"
+                "equipment": "Rolled papyrus spellbook with summon berserkers and wall of smoke, wavy_x0002_bladed dagger, black and gold Somirean Cassock, polished iron skullcap, leather belt, low boots, backpack, quill and ink, 2 weeks\u2019 iron rations, 95gp"
             },
             "14": {
                 "name": "Eunuch Sorcerer",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Mystic Aura, Intimidation, Theology",
-                "equipment": "Rolled papyrus spellbook with summon berserkers and wall of smoke, wavy_x0002_bladed dagger, black and gold Somirean robes, polished iron skullcap, leather belt, low boots, backpack, quill and ink, 2 weeks\u2019 iron rations, 95gp"
+                "equipment": "Rolled papyrus spellbook with summon berserkers and wall of smoke, wavy_x0002_bladed dagger, black and gold Somirean Cassock, polished iron skullcap, leather belt, low boots, backpack, quill and ink, 2 weeks\u2019 iron rations, 95gp"
             },
             "15": {
                 "name": "Warmage",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Battle Magic, Military Strategy, Siege Engineering",
                 "equipment": "Academy-issue spellbook with magic missile and shield, iron-shod staff, officer\u2019s dagger, red armiger\u2019s tunic and pants, leather belt, leather gloves, high boots, backpack, quill and ink, 2 weeks\u2019 iron rations, 100gp"
             },
             "16": {
                 "name": "Warmage",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Battle Magic, Military Strategy, Siege Engineering",
                 "equipment": "Academy-issue spellbook with magic missile and shield, iron-shod staff, officer\u2019s dagger, red armiger\u2019s tunic and pants, leather belt, leather gloves, high boots, backpack, quill and ink, 2 weeks\u2019 iron rations, 100gp"
             },
             "17": {
                 "name": "Court Magist",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Prestidigitation, Diplomacy, Language",
                 "equipment": "Bronze-framed spellbook with charm person and unseen servant, quarterstaff tipped with glass gemstone (45gp value), 5 darts, silk mage\u2019s cassock, extravagant hat, leather belt, leather gloves, high boots, backpack, quill and ink, medium riding horse, riding saddle and tack, saddlebags, 1 week\u2019s iron rations, 22gp"
             },
             "18": {
                 "name": "Court Magist",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Prestidigitation, Diplomacy, Language",
                 "equipment": "Bronze-framed spellbook with charm person and unseen servant, quarterstaff tipped with glass gemstone (45gp value), 5 darts, silk mage\u2019s cassock, extravagant hat, leather belt, leather gloves, high boots, backpack, quill and ink, medium riding horse, riding saddle and tack, saddlebags, 1 week\u2019s iron rations, 22gp"
             }
@@ -106,94 +122,110 @@
                 "name": "Outlaw",
                 "armor": "Leather Armor",
                 "proficiencies": "Skulking, Survival",
+                "weapon": "Short Sword",
                 "equipment": "Handmade shortbow, quiver with 20 arrows, short sword, tattered cloak, old freeholder\u2019s tunic and pants, leather belt, well-worn low boots, backpack, 50' rope, 1 week\u2019s iron rations"
             },
             "4": {
                 "name": "Outlaw",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Skulking, Survival",
                 "equipment": "Handmade shortbow, quiver with 20 arrows, short sword, tattered cloak, old freeholder\u2019s tunic and pants, leather belt, well-worn low boots, backpack, 50' rope, 1 week\u2019s iron rations"
             },
             "5": {
                 "name": "Thief Acrobat",
                 "armor": "Leather Armor",
+                "weapon": "Staff",
                 "proficiencies": "Acrobatics, Endurance",
                 "equipment": "Bola, quarterstaff, cloak, tunic and pants, leather belt, low boots, 50' rope, grappling hook, backpack, 2 weeks\u2019 iron rations"
             },
             "6": {
                 "name": "Thief Acrobat",
                 "armor": "Leather Armor",
+                "weapon": "Staff",
                 "proficiencies": "Acrobatics, Endurance",
                 "equipment": "Bola, quarterstaff, cloak, tunic and pants, leather belt, low boots, 50' rope, grappling hook, backpack, 2 weeks\u2019 iron rations"
             },
             "7": {
                 "name": "Buccaneer",
                 "armor": "Leather Armor",
+                "weapon": "Scimitar",
                 "proficiencies": "Swashbuckling, Seafaring",
                 "equipment": "Shortbow, quiver with 20 arrows, scimitar, 2 well-balanced daggers with boot-sheathes, colorful tunic and pants, silk girdle, high boots, wineskin with good wine, small sack, 50' rope, thieves\u2019 tools, 1 week\u2019s iron rations, 7gp"
             },
             "8": {
                 "name": "Buccaneer",
                 "armor": "Leather Armor",
+                "weapon": "Scimitar",
                 "proficiencies": "Swashbuckling, Seafaring",
                 "equipment": "Shortbow, quiver with 20 arrows, scimitar, 2 well-balanced daggers with boot-sheathes, colorful tunic and pants, silk girdle, high boots, wineskin with good wine, small sack, 50' rope, thieves\u2019 tools, 1 week\u2019s iron rations, 7gp"
             },
             "9": {
                 "name": "Tomb Raider",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Trap Finding, Mapping",
                 "equipment": "Crossbow, case with 20 bolts, 10' pole, short sword, 2 throwing daggers, tanned brown cloak, thick tunic and pants, leather belt, low boots, backpack, 2 large treasure sacks, thieves\u2019 tools, 50' rope, tinderbox, lantern, small hammer, 12 iron spikes, 2 flasks of military oil, wineskin, 2 weeks\u2019 iron rations"
             },
             "10": {
                 "name": "Tomb Raider",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Trap Finding, Mapping",
                 "equipment": "Crossbow, case with 20 bolts, 10' pole, short sword, 2 throwing daggers, tanned brown cloak, thick tunic and pants, leather belt, low boots, backpack, 2 large treasure sacks, thieves\u2019 tools, 50' rope, tinderbox, lantern, small hammer, 12 iron spikes, 2 flasks of military oil, wineskin, 2 weeks\u2019 iron rations"
             },
             "11": {
                 "name": "Cat Burgler",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Cat Burglary, Gambling",
                 "equipment": "Shortbow, quiver with 20 arrows, short sword, 2 throwing daggers, black cloak with hood and bandana, black tunic and pants, padded sandals, backpack, 2 large sacks, thieves\u2019 tools, crowbar, 100' rope, grappling hook, lantern, tinderbox, 2 flasks of common oil, small hammer, 12 iron spikes, wineskin, 1 week\u2019s iron rations, 5gp"
             },
             "12": {
                 "name": "Cat Burgler",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Cat Burglary, Gambling",
                 "equipment": "Shortbow, quiver with 20 arrows, short sword, 2 throwing daggers, black cloak with hood and bandana, black tunic and pants, padded sandals, backpack, 2 large sacks, thieves\u2019 tools, crowbar, 100' rope, grappling hook, lantern, tinderbox, 2 flasks of common oil, small hammer, 12 iron spikes, wineskin, 1 week\u2019s iron rations, 5gp"
             },
             "13": {
                 "name": "Lockbreaker",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Lockpicking, Craft (Locksmithing)",
                 "equipment": "Crossbow, case with 20 bolts, short sword, 2 throwing daggers, hooded cloak, freeholder\u2019s tunic and pants, leather belt, low boots, backpack, thieves\u2019 tools, 50' rope, grappling hook, tinderbox, lantern, 2 flasks of common oil, small hammer, 12 iron spikes, wineskin, 1 week\u2019s iron ration"
             },
             "14": {
                 "name": "Lockbreaker",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Lockpicking, Craft (Locksmithing)",
                 "equipment": "Crossbow, case with 20 bolts, short sword, 2 throwing daggers, hooded cloak, freeholder\u2019s tunic and pants, leather belt, low boots, backpack, thieves\u2019 tools, 50' rope, grappling hook, tinderbox, lantern, 2 flasks of common oil, small hammer, 12 iron spikes, wineskin, 1 week\u2019s iron ration"
             },
             "15": {
                 "name": "Failed Apprentice",
                 "armor": "Leather Armor",
+                "weapon": "Staff",
                 "proficiencies": "Arcane Dabbling, Collegiate Wizardry",
                 "equipment": "Crossbow, case with 20 bolts, quarterstaff, 2 throwing daggers, blue mage's cassock, high boots, backpack, thieves\u2019 tools, 50' rope, spellbook (blank), lantern, tinderbox, 4 flasks of military oil, 2 flasks of common oil, small hammer, 12 iron spikes, 1lb garlic, 1lb wolfsbane wineskin, 1 week\u2019s iron rations, 4gp"            },
             "16": {
                 "name": "Failed Apprentice",
                 "armor": "Leather Armor",
+                "weapon": "Staff",
                 "proficiencies": "Arcane Dabbling, Collegiate Wizardry",
                 "equipment": "Crossbow, case with 20 bolts, quarterstaff, 2 throwing daggers, blue mage's cassock, high boots, backpack, thieves\u2019 tools, 50' rope, spellbook (blank), lantern, tinderbox, 4 flasks of military oil, 2 flasks of common oil, small hammer, 12 iron spikes, 1lb garlic, 1lb wolfsbane wineskin, 1 week\u2019s iron rations, 4gp"
             },
             "17": {
                 "name": "Traveler",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Skirmishing, Riding",
                 "equipment": "Crossbow, case with 20 bolts, short sword, traveler\u2019s tunic and pants, riding boots, light riding horse, riding saddle and tack, leather saddlebags, thieves\u2019 tools, 1 week\u2019s iron rations"
             },
             "18": {
                 "name": "Traveler",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Skirmishing, Riding",
                 "equipment": "Crossbow, case with 20 bolts, short sword, traveler\u2019s tunic and pants, riding boots, light riding horse, riding saddle and tack, leather saddlebags, thieves\u2019 tools, 1 week\u2019s iron rations"
             }
@@ -205,96 +237,112 @@
         "templates": {
             "3": {
                 "name": "Ferine",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Beast Friendship, Naturalism, Survival",
                 "equipment": "Tattered spellbook with slipperiness and chameleon, gnarled oaken staff, simple robe, leather shoes, belt pouch, fiercely loyal hunting dog, 2 weeks\u2019 iron rations, 2gp"
             },
             "4": {
                 "name": "Ferine",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Beast Friendship, Naturalism, Survival",
                 "equipment": "Tattered spellbook with slipperiness and chameleon, gnarled oaken staff, simple robe, leather shoes, belt pouch, fiercely loyal hunting dog, 2 weeks\u2019 iron rations, 2gp"
             },
             "5": {
                 "name": "Augur",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Prophecy, Performance (Storytelling), Theology",
                 "equipment": "Rolled papyrus spellbook with charm person and magic mouth, elaborately-carved staff, blue robe with crescents, leather belt, low boots, backpack, ornamental crystal ball (20gp value), quill and ink, 2 weeks\u2019 iron rations"
             },
             "6": {
                 "name": "Augur",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Prophecy, Performance (Storytelling), Theology",
                 "equipment": "Rolled papyrus spellbook with charm person and magic mouth, elaborately-carved staff, blue robe with crescents, leather belt, low boots, backpack, ornamental crystal ball (20gp value), quill and ink, 2 weeks\u2019 iron rations"
             },
             "7": {
                 "name": "Corrupted Soul",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Apostasy, Alchemy, Knowledge (Occult)",
-                "equipment": "Iron-bound snakeskin spellbook with choking grip and darkness, unholy symbol (serpent of Saqqara), curved sacrificial dagger, grey robes, leather belt, leather gloves, high boots, backpack, quill and ink, 2 weeks\u2019 iron rations, 10gp"
+                "equipment": "Iron-bound snakeskin spellbook with choking grip and darkness, unholy symbol (serpent of Saqqara), curved sacrificial dagger, grey Cassock, leather belt, leather gloves, high boots, backpack, quill and ink, 2 weeks\u2019 iron rations, 10gp"
             },
             "8": {
                 "name": "Corrupted Soul",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Apostasy, Alchemy, Knowledge (Occult)",
-                "equipment": "Iron-bound snakeskin spellbook with choking grip and darkness, unholy symbol (serpent of Saqqara), curved sacrificial dagger, grey robes, leather belt, leather gloves, high boots, backpack, quill and ink, 2 weeks\u2019 iron rations, 10gp"
+                "equipment": "Iron-bound snakeskin spellbook with choking grip and darkness, unholy symbol (serpent of Saqqara), curved sacrificial dagger, grey Cassock, leather belt, leather gloves, high boots, backpack, quill and ink, 2 weeks\u2019 iron rations, 10gp"
             },
             "9": {
                 "name": "Servant of Fire",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Elementalism (Fire), Theology, Naturalism",
                 "equipment": "Red leather spellbook with burning hands and shield, holy symbol (ivory torch of Mityara), gnarled oaken quarterstaff, 5 darts, flame red cassock with hood, leather belt, low boots, backpack, quill and ink, flask of holy water, 2 weeks\u2019 iron rations, 7gp"
             },
             "10": {
                 "name": "Servant of Fire",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Elementalism (Fire), Theology, Naturalism",
                 "equipment": "Red leather spellbook with burning hands and shield, holy symbol (ivory torch of Mityara), gnarled oaken quarterstaff, 5 darts, flame red cassock with hood, leather belt, low boots, backpack, quill and ink, flask of holy water, 2 weeks\u2019 iron rations, 7gp"
             },
             "11": {
                 "name": "Astrologer",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Sensing Power, Knowledge (Astrology), Collegiate Wizardry",
                 "equipment": "Bronze-framed spellbook with sleep and detect magic, holy symbol (ankh of Teos), rune-etched staff, blue mage\u2019s cassock, leather belt, low boots, backpack, flask of holy water, astrologer\u2019s journal tracking constellations, quill and ink, 1 week\u2019s iron rations, 20gp"
             },
             "12": {
                 "name": "Astrologer",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Sensing Power, Knowledge (Astrology), Collegiate Wizardry",
                 "equipment": "Bronze-framed spellbook with sleep and detect magic, holy symbol (ankh of Teos), rune-etched staff, blue mage\u2019s cassock, leather belt, low boots, backpack, flask of holy water, astrologer\u2019s journal tracking constellations, quill and ink, 1 week\u2019s iron rations, 20gp"
             },
             "13": {
                 "name": "Inceptor",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Transmogrification, Healing, Alchemy",
                 "equipment": "Rolled papyrus spellbook with summon berserkers and unseen servant, holy symbol (winged sun of Ammonar), silver dagger, purple cassock, leather belt, low boots, backpack, quill and ink, flask of holy water, 2 weeks\u2019 iron rations, 25gp"
             },
             "14": {
                 "name": "Inceptor",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Transmogrification, Healing, Alchemy",
                 "equipment": "Rolled papyrus spellbook with summon berserkers and unseen servant, holy symbol (winged sun of Ammonar), silver dagger, purple cassock, leather belt, low boots, backpack, quill and ink, flask of holy water, 2 weeks\u2019 iron rations, 25gp"
             },
             "15": {
                 "name": "Wrathbringer",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Battle Axe",
                 "proficiencies": "Martial Training (Axes), Military Strategy, Profession (Judge)",
                 "equipment": "Iron-shod spellbook with magic missile and sharpness, holy symbol (axe of Indura), battle axe, 2 hand axes, red and gold cassock, leather belt, leather gloves, high boots, backpack, quill and ink, 2 flasks of holy water, 2 weeks\u2019 iron rations, 27gp"
             },
             "16": {
                 "name": "Wrathbringer",
+                "weapon": "Battle Axe",
                 "proficiencies": "Martial Training (Axes), Military Strategy, Profession (Judge)",
                 "equipment": "Iron-shod spellbook with magic missile and sharpness, holy symbol (axe of Indura), battle axe, 2 hand axes, red and gold cassock, leather belt, leather gloves, high boots, backpack, quill and ink, 2 flasks of holy water, 2 weeks\u2019 iron rations, 27gp"
             },
             "17": {
                 "name": "Messiah",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Contemplation, Diplomacy, Leadership",
                 "equipment": "White leather spellbook with protection from evil and light, holy symbol (winged sun of Ammonar), quarterstaff tipped with glass gemstone (45gp value), white cassock, leather belt, leather gloves, high boots, backpack, quill and ink, medium riding horse, riding saddle and tack, saddlebags, 1 week\u2019s iron rations, 14gp"
             },
             "18": {
                 "name": "Messiah",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Contemplation, Diplomacy, Leadership",
                 "equipment": "White leather spellbook with protection from evil and light, holy symbol (winged sun of Ammonar), quarterstaff tipped with glass gemstone (45gp value), white cassock, leather belt, leather gloves, high boots, backpack, quill and ink, medium riding horse, riding saddle and tack, saddlebags, 1 week\u2019s iron rations, 14gp"
             }
@@ -305,97 +353,113 @@
         "templates": {
             "3": {
                 "name": "Anchorite",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Contemplation, Survival",
                 "equipment": "Holy symbol (wheel of Calefa), wickedly curved dagger, animal skin cloak, leather girdle, leather breast band, loin cloth, high boots, leather pouch, 1 week\u2019s iron rations, 5gp"
             },
             "4": {
                 "name": "Anchorite",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Contemplation, Survival",
                 "equipment": "Holy symbol (wheel of Calefa), wickedly curved dagger, animal skin cloak, leather girdle, leather breast band, loin cloth, high boots, leather pouch, 1 week\u2019s iron rations, 5gp"
             },
             "5": {
                 "name": "Oracle",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Prophecy, Performance (Storytelling)",
                 "equipment": "Holy symbol (wheel of Calefa), wavy-bladed dagger, white and grey chiton, sandals, purse, flask of holy water, 2 weeks\u2019 iron rations"
             },
             "6": {
                 "name": "Oracle",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Prophecy, Performance (Storytelling)",
                 "equipment": "Holy symbol (wheel of Calefa), wavy-bladed dagger, white and grey chiton, sandals, purse, flask of holy water, 2 weeks\u2019 iron rations"
             },
             "7": {
                 "name": "Chantress",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Stiletto",
                 "proficiencies": "Magical Music, Performance (Singing)",
                 "equipment": "Holy symbol (9-pointed star of Ianna), stiletto, priestess\u2019s headdress (20gp), scarlet silk chiton, gold sash, high sandals, backpack, 2 weeks\u2019 iron rations, 7gp"
             },
             "8": {
                 "name": "Chantress",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Stiletto",
                 "proficiencies": "Magical Music, Performance (Singing)",
                 "equipment": "Holy symbol (9-pointed star of Ianna), stiletto, priestess\u2019s headdress (20gp), scarlet silk chiton, gold sash, high sandals, backpack, 2 weeks\u2019 iron rations, 7gp"
             },
             "9": {
                 "name": "Canoness",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Divine Blessing, Theology",
                 "equipment": "Holy symbol (white lady of Mityara), slender whitewood staff, priestess\u2019s head dress (20gp value), white silk chiton, gold silk sash, high boots, backpack, flask of holy water, 2 weeks\u2019 iron rations, 1gp"
             },
             "10": {
                 "name": "Canoness",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Divine Blessing, Theology",
                 "equipment": "Holy symbol (white lady of Mityara), slender whitewood staff, priestess\u2019s head dress (20gp value), white silk chiton, gold silk sash, high boots, backpack, flask of holy water, 2 weeks\u2019 iron rations, 1gp"
             },
             "11": {
                 "name": "Medician",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Laying on Hands, Healing",
                 "equipment": "Holy symbol (white lady of Mityara), slender whitewood staff, white silk chiton, gold silk sash, high boots, backpack, 1lb birthwort, 1lb comfrey, 1lb goldenrod, 1lb woundwort, flask of holy water, 2 weeks\u2019 iron rations, 1gp"
             },
             "12": {
                 "name": "Medician",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Laying on Hands, Healing",
                 "equipment": "Holy symbol (white lady of Mityara), slender whitewood staff, white silk chiton, gold silk sash, high boots, backpack, 1lb birthwort, 1lb comfrey, 1lb goldenrod, 1lb woundwort, flask of holy water, 2 weeks\u2019 iron rations, 1gp"
             },
             "13": {
                 "name": "Sacred Courtesan",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Stiletto",
                 "proficiencies": "Mystic Aura, Seduction",
                 "equipment": "Holy symbol (9-pointed star of Ianna), stiletto, gold silk cloak, veil, and sash, scarlet silk chiton, long leather gloves, gold bangles (20gp value), gold earrings (20gp), high boots, backpack, 2 weeks\u2019 iron rations, 17gp"
             },
             "14": {
                 "name": "Sacred Courtesan",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Stiletto",
                 "proficiencies": "Mystic Aura, Seduction",
                 "equipment": "Holy symbol (9-pointed star of Ianna), stiletto, gold silk cloak, veil, and sash, scarlet silk chiton, long leather gloves, gold bangles (20gp value), gold earrings (20gp), high boots, backpack, 2 weeks\u2019 iron rations, 17gp"
             },
             "15": {
                 "name": "Missionary",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Divine Health, Diplomacy",
                 "equipment": "Holy symbol (white lady of Mityara), slender whitewood staff, priestess\u2019s head dress (20gp value), white silk chiton, gold silk sash, high boots, backpack, 2 flask of holy water, holy book (The Laws of the Light), 2 weeks\u2019 iron rations, 16gp"
             },
             "16": {
                 "name": "Missionary",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Divine Health, Diplomacy",
                 "equipment": "Holy symbol (white lady of Mityara), slender whitewood staff, priestess\u2019s head dress (20gp value), white silk chiton, gold silk sash, high boots, backpack, 2 flask of holy water, holy book (The Laws of the Light), 2 weeks\u2019 iron rations, 16gp"
             },
             "17": {
                 "name": "Lightbringer",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Righteous Turning, Leadership",
                 "equipment": "Holy symbol (white lady of Mityara), slender whitewood staff, priestess\u2019s head dress (20gp value), white silk chiton, gold silk sash, high boots, light riding horse, riding tack and saddle, saddlebags, 2 weeks\u2019 iron rations, 18gp"
             },
             "18": {
                 "name": "Lightbringer",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Righteous Turning, Leadership",
                 "equipment": "Holy symbol (white lady of Mityara), slender whitewood staff, priestess\u2019s head dress (20gp value), white silk chiton, gold silk sash, high boots, light riding horse, riding tack and saddle, saddlebags, 2 weeks\u2019 iron rations, 18gp"
             }
@@ -407,96 +471,112 @@
             "3": {
                 "name": "Bankrupt",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Running, Gambling",
                 "equipment": "Slightly notched short sword, dagger, shabby linen tunic and pants, leather belt, low boots, belt pouch, pair of bone dice, 1 week\u2019s iron rations, 5gp"
             },
             "4": {
                 "name": "Bankrupt",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Running, Gambling",
                 "equipment": "Slightly notched short sword, dagger, shabby linen tunic and pants, leather belt, low boots, belt pouch, pair of bone dice, 1 week\u2019s iron rations, 5gp"
             },
             "5": {
                 "name": "Factotum",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Arcane Dabbling, Bargaining",
                 "equipment": "Shortbow, quiver with 20 arrows, short sword, dagger,  wool tunic and pants, hooded cloak, leather belt, low boots, backpack, tinderbox, 12 torches, 1 week\u2019s iron rations, 14gp"
             },
             "6": {
                 "name": "Factotum",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Arcane Dabbling, Bargaining",
                 "equipment": "Shortbow, quiver with 20 arrows, short sword, dagger, wool tunic and pants, hooded cloak, leather belt, low boots, backpack, tinderbox, 12 torches, 1 week\u2019s iron rations, 14gp"
             },
             "7": {
                 "name": "Merchant Mariner",
                 "armor": "Leather Armor",
+                "weapon": "Scimitar",
                 "proficiencies": "Swashbuckling, Seafaring",
                 "equipment": "Shortbow, quiver with 20 arrows, scimitar, mariner\u2019s tunic and pants, fancy gold sash, polished high boots, backpack, 50' rope, grappling hook, tinderbox, 12 torches, 2 weeks\u2019 iron rations, 10gp"
             },
             "8": {
                 "name": "Merchant Mariner",
                 "armor": "Leather Armor",
+                "weapon": "Scimitar",
                 "proficiencies": "Swashbuckling, Seafaring",
                 "equipment": "Shortbow, quiver with 20 arrows, scimitar, mariner\u2019s tunic and pants, fancy gold sash, polished high boots, backpack, 50' rope, grappling hook, tinderbox, 12 torches, 2 weeks\u2019 iron rations, 10gp"
             },
             "9": {
                 "name": "Merchant Traveler",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Alertness, Navigation",
                 "equipment": "Crossbow, case with 20 bolts, short sword, 2 throwing daggers, tanned brown cloak, thick tunic and pants, leather belt, low boots, backpack, 2 large treasure sacks, 50' rope, tinderbox, lantern, small hammer, 12 iron spikes, 2 flasks of military oil, wineskin, 2 weeks\u2019 iron rations, 3gp"
             },
             "10": {
                 "name": "Merchant Traveler",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Alertness, Navigation",
                 "equipment": "Crossbow, case with 20 bolts, short sword, 2 throwing daggers, tanned brown cloak, thick tunic and pants, leather belt, low boots, backpack, 2 large treasure sacks, 50' rope, tinderbox, lantern, small hammer, 12 iron spikes, 2 flasks of military oil, wineskin, 2 weeks\u2019 iron rations, 3gp"
             },
             "11": {
                 "name": "Antiquary",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Magical Engineering, Knowledge (History)",
                 "equipment": "Crossbow, case with 20 bolts, short sword, dagger, traveler\u2019s tunic and pants, leather belt, sturdy low boots, backpack, collector\u2019s journal, quill and ink, collection of ancient coins (32gp value), 1 week\u2019s iron rations"
             },
             "12": {
                 "name": "Antiquary",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Magical Engineering, Knowledge (History)",
                 "equipment": "Crossbow, case with 20 bolts, short sword, dagger, traveler\u2019s tunic and pants, leather belt, sturdy low boots, backpack, collector\u2019s journal, quill and ink, collection of ancient coins (32gp value), 1 week\u2019s iron rations"
             },
             "13": {
                 "name": "Caravaneer",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Precise Shot, Animal Husbandry",
-                "equipment": "Crossbow, case with 20 bolts, short sword, dagger, dusty robes, leather belt, sturdy low boots, backpack, tinderbox, 12 torches, 1 flask of common oil, 1 pint of good wine in wineskin, small cart, mule, draft harness and tack, 2 leather saddlebags, 2 weeks\u2019 iron rations, 5gp"
+                "equipment": "Crossbow, case with 20 bolts, short sword, dagger, dusty Cassock, leather belt, sturdy low boots, backpack, tinderbox, 12 torches, 1 flask of common oil, 1 pint of good wine in wineskin, small cart, mule, draft harness and tack, 2 leather saddlebags, 2 weeks\u2019 iron rations, 5gp"
             },
             "14": {
                 "name": "Caravaneer",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Precise Shot, Animal Husbandry",
-                "equipment": "Crossbow, case with 20 bolts, short sword, dagger, dusty robes, leather belt, sturdy low boots, backpack, tinderbox, 12 torches, 1 flask of common oil, 1 pint of good wine in wineskin, small cart, mule, draft harness and tack, 2 leather saddlebags, 2 weeks\u2019 iron rations, 5gp"
+                "equipment": "Crossbow, case with 20 bolts, short sword, dagger, dusty Cassock, leather belt, sturdy low boots, backpack, tinderbox, 12 torches, 1 flask of common oil, 1 pint of good wine in wineskin, small cart, mule, draft harness and tack, 2 leather saddlebags, 2 weeks\u2019 iron rations, 5gp"
             },
             "15": {
                 "name": "Comprador",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Lip Reading, Language",
                 "equipment": "Crossbow, case with 20 bolts, short sword, dagger, embroidered cloak, armiger\u2019s tunic and pants, leather gloves, low boots, backpack, 1 week\u2019s iron rations, 70gp for bribes"
             },
             "16": {
                 "name": "Comprador",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Lip Reading, Language",
                 "equipment": "Crossbow, case with 20 bolts, short sword, dagger, embroidered cloak, armiger\u2019s tunic and pants, leather gloves, low boots, backpack, 1 week\u2019s iron rations, 70gp for bribes"
             },
             "17": {
                 "name": "Magnate",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Leadership, Riding",
                 "equipment": "Crossbow, case with 20 bolts, short sword, dagger, embroidered cloak, armiger\u2019s tunic and pants, gaudy silver rings (20gp value), riding boots, medium riding horse, riding saddle and tack, leather saddlebags, 2 weeks\u2019 iron rations, 14gp"
             },
             "18": {
                 "name": "Magnate",
                 "armor": "Leather Armor",
+                "weapon": "Short Sword",
                 "proficiencies": "Leadership, Riding",
                 "equipment": "Crossbow, case with 20 bolts, short sword, dagger, embroidered cloak, armiger\u2019s tunic and pants, gaudy silver rings (20gp value), riding boots, medium riding horse, riding saddle and tack, leather saddlebags, 2 weeks\u2019 iron rations, 14gp"
             }
@@ -507,99 +587,115 @@
         "templates": {
             "3": {
                 "name": "Pact Witch",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Beast Friendship, Animal Husbandry, Healing",
                 "equipment": "Cat familiar, musty old spellbook with choking grip and protection from evil, gnarled oaken staff, simple robe, leather shoes, medicine bag, 1lb comfrey, 2 weeks\u2019 iron rations"
             },
             "4": {
                 "name": "Pact Witch",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Beast Friendship, Animal Husbandry, Healing",
                 "equipment": "Cat familiar, musty old spellbook with choking grip and protection from evil, gnarled oaken staff, simple robe, leather shoes, medicine bag, 1lb comfrey, 2 weeks\u2019 iron rations"
             },
             "5": {
                 "name": "Changeling",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Elven Bloodline, Mimicry, Natrualism",
                 "equipment": "Lizard familiar, wood-paneled spellbook with choking grip and ventriloquism, \nsmooth-worn staff, robe stitched together of many fabrics, leather belt, low boots, \nbackpack, 1lb birthwort, 1lb woundwort, quill and ink, 2 weeks\u2019 iron rations"
             },
             "6": {
                 "name": "Changeling",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Elven Bloodline, Mimicry, Natrualism",
                 "equipment": "Lizard familiar, wood-paneled spellbook with choking grip and ventriloquism, \nsmooth-worn staff, robe stitched together of many fabrics, leather belt, low boots, \nbackpack, 1lb birthwort, 1lb woundwort, quill and ink, 2 weeks\u2019 iron rations"
             },
             "7": {
                 "name": "Deranged Alchemist",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Transmogrificaton, Alchemy, Alchemy 2",
                 "equipment": "Toad familiar, curiously-stained spellbook with choking grip and slipperiness, razor_x0002_like dagger, grey warlock\u2019s cassock, leather belt, leather gloves, high boots, backpack, 1lb birthwort, 1lb goldenrod, 1lb woundwort, quill and ink, 2 weeks\u2019 iron rations, 5gp"
             },
             "8": {
                 "name": "Deranged Alchemist",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Transmogrificaton, Alchemy, Alchemy 2",
                 "equipment": "Toad familiar, curiously-stained spellbook with choking grip and slipperiness, razor_x0002_like dagger, grey warlock\u2019s cassock, leather belt, leather gloves, high boots, backpack, 1lb birthwort, 1lb goldenrod, 1lb woundwort, quill and ink, 2 weeks\u2019 iron rations, 5gp"
             },
             "9": {
                 "name": "Defiler",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Elementalism, Naturalism, Intimidation",
                 "equipment": "Raven familiar, rusted iron-bound spellbook with choking grip and burning hands, misshapen yew quarterstaff, 5 darts, grey and green cassock with hood, leather belt, low boots, backpack, quill and ink, 2 weeks\u2019 iron rations, 57gp"
             },
             "10": {
                 "name": "Defiler",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Elementalism, Naturalism, Intimidation",
                 "equipment": "Raven familiar, rusted iron-bound spellbook with choking grip and burning hands, misshapen yew quarterstaff, 5 darts, grey and green cassock with hood, leather belt, low boots, backpack, quill and ink, 2 weeks\u2019 iron rations, 57gp"
             },
             "11": {
                 "name": "Corrupted Scholar",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Loremastery, Knowledge (Occult), Alchemy",
                 "equipment": "Owl familiar, bloodstained spellbook with choking grip and read languages, rune_x0002_etched staff, silver dagger, grey warlock\u2019s cassock, leather belt, low boots, backpack, quill and ink, 1 week\u2019s iron rations, 50gp"
             },
             "12": {
                 "name": "Corrupted Scholar",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Loremastery, Knowledge (Occult), Alchemy",
                 "equipment": "Owl familiar, bloodstained spellbook with choking grip and read languages, rune_x0002_etched staff, silver dagger, grey warlock\u2019s cassock, leather belt, low boots, backpack, quill and ink, 1 week\u2019s iron rations, 50gp"
             },
             "13": {
                 "name": "Diabolist",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Divine Blessing, Theology, Knowledge (Occult)",
                 "equipment": "Bat familiar, leather and bone spellbook with choking grip and summon berserkers, wavy-bladed silver dagger, long leather whip, grey warlock\u2019s cassock, polished iron skullcap, leather belt, leather gloves, high boots, backpack, quill and ink, 1 week\u2019s iron rations, 60gp"
             },
             "14": {
                 "name": "Diabolist",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Divine Blessing, Theology, Knowledge (Occult)",
                 "equipment": "Bat familiar, leather and bone spellbook with choking grip and summon berserkers, wavy-bladed silver dagger, long leather whip, grey warlock\u2019s cassock, polished iron skullcap, leather belt, leather gloves, high boots, backpack, quill and ink, 1 week\u2019s iron rations, 60gp"
             },
             "15": {
                 "name": "Destroyer",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Battle Magic, Military Strategy, Siege Engineering",
                 "equipment": "Hawk familiar, battle-scarred spellbook with choking grip and magic missile, iron_x0002_shod staff topped with skull, 2 wickedly curved silver daggers, 10 darts, black armiger\u2019s tunic and pants, leather belt, leather gloves, high boots, backpack, quill and ink, 1 week\u2019s iron rations, 40gp"
             },
             "16": {
                 "name": "Destroyer",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Battle Magic, Military Strategy, Siege Engineering",
                 "equipment": "Hawk familiar, battle-scarred spellbook with choking grip and magic missile, iron_x0002_shod staff topped with skull, 2 wickedly curved silver daggers, 10 darts, black armiger\u2019s tunic and pants, leather belt, leather gloves, high boots, backpack, quill and ink, 1 week\u2019s iron rations, 40gp"
             },
             "17": {
                 "name": "Scheming Vizier",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Mystic Aura, Intimidation, Leadership",
-                "equipment": "Viper familiar, rolled papyrus spellbook with choking grip and charm person, wavy_x0002_bladed dagger, long leather whip, black silk robes, gleaming silver skullcap (45gp value), leather belt, low boots, backpack, quill and ink, medium riding horse, riding saddle and tack, saddlebags, 1 week\u2019s iron rations, 20gp"
+                "equipment": "Viper familiar, rolled papyrus spellbook with choking grip and charm person, wavy_x0002_bladed dagger, long leather whip, black silk Cassock, gleaming silver skullcap (45gp value), leather belt, low boots, backpack, quill and ink, medium riding horse, riding saddle and tack, saddlebags, 1 week\u2019s iron rations, 20gp"
             },
             "18": {
                 "name": "Scheming Vizier",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Mystic Aura, Intimidation, Leadership",
-                "equipment": "Viper familiar, rolled papyrus spellbook with choking grip and charm person, wavy_x0002_bladed dagger, long leather whip, black silk robes, gleaming silver skullcap (45gp value), leather belt, low boots, backpack, quill and ink, medium riding horse, riding saddle and tack, saddlebags, 1 week\u2019s iron rations, 20gp"
+                "equipment": "Viper familiar, rolled papyrus spellbook with choking grip and charm person, wavy_x0002_bladed dagger, long leather whip, black silk Cassock, gleaming silver skullcap (45gp value), leather belt, low boots, backpack, quill and ink, medium riding horse, riding saddle and tack, saddlebags, 1 week\u2019s iron rations, 20gp"
             }
         }
     },
@@ -608,97 +704,113 @@
         "templates": {
             "3": {
                 "name": "Crone (Antiquarian)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Contemplation, Survival, Healing",
                 "equipment": "Holy symbol (7-spoked wheel), rusty dagger, tattered cloak, patched wool dress, leather shoes, leather pouch, 1 week\u2019s iron rations, 5gp"
             },
             "4": {
                 "name": "Crone (Antiquarian)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Contemplation, Survival, Healing",
                 "equipment": "Holy symbol (7-spoked wheel), rusty dagger, tattered cloak, patched wool dress, leather shoes, leather pouch, 1 week\u2019s iron rations, 5gp"
             },
             "5": {
                 "name": "Dark Oracle (Chthonic)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Prophecy, Performance (Storytelling), Seduction",
                 "equipment": "Unholy symbol (purple circle on black), wavy-bladed dagger, purple and black chiton, sandals, purse, flask of unholy water, 2 weeks\u2019 iron rations"
             },
             "6": {
                 "name": "Dark Oracle (Chthonic)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "proficiencies": "Prophecy, Performance (Storytelling), Seduction",
                 "equipment": "Unholy symbol (purple circle on black), wavy-bladed dagger, purple and black chiton, sandals, purse, flask of unholy water, 2 weeks\u2019 iron rations"
             },
             "7": {
                 "name": "Botono (Voudon)",
                 "proficiencies": "Prestidigitation, Intimidation, Craft (Doll-Making)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Dagger",
                 "equipment": "Holy symbol (bloody teeth), ivory dagger, baobab staff topped with hyena skull, zebra_x0002_hide cloak, linen breastwrap, loincloth, sandals, backpack, 2 clay dolls (5gp each), craftsman\u2019s tools, 12 iron spikes, 6 torches, 2 weeks\u2019 iron rations"
             },
             "8": {
                 "name": "Botono (Voudon)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Prestidigitation, Intimidation, Craft (Doll-Making)",
                 "equipment": "Holy symbol (bloody teeth), ivory dagger, baobab staff topped with hyena skull, zebra_x0002_hide cloak, linen breastwrap, loincloth, sandals, backpack, 2 clay dolls (5gp each), craftsman\u2019s tools, 12 iron spikes, 6 torches, 2 weeks\u2019 iron rations"
             },
             "9": {
                 "name": "Lorelei (Sylvan)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Magical Music, Perfomance (Singing), Beast Friendship",
                 "equipment": "Holy symbol (white bird), slender whitewood staff, elaborate bronze choker necklace (20gp value), green silk dress, autumn-hued silk sash, high boots, backpack, flask of holy water, 2 weeks\u2019 iron rations, 1gp"
             },
             "10": {
                 "name": "Lorelei (Sylvan)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Magical Music, Perfomance (Singing), Beast Friendship",
                 "equipment": "Holy symbol (white bird), slender whitewood staff, elaborate bronze choker necklace (20gp value), green silk dress, autumn-hued silk sash, high boots, backpack, flask of holy water, 2 weeks\u2019 iron rations, 1gp"
             },
             "11": {
                 "name": "Village Witch (Antiquarian)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Laying on Hands, Healing, Healing 2",
                 "equipment": "Holy symbol (pair of horns around lunar disc), slender oak staff, freeholder\u2019s dress, leather belt, leather shoes, backpack, 1lb birthwort, 2lb comfrey, 1lb goldenrod, 1lb woundwort, 5 scented wax candles, flask of holy water, 2 weeks\u2019 iron rations, 7gp"
             },
             "12": {
                 "name": "Village Witch (Antiquarian)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Laying on Hands, Healing, Healing 2",
                 "equipment": "Holy symbol (pair of horns around lunar disc), slender oak staff, freeholder\u2019s dress, leather belt, leather shoes, backpack, 1lb birthwort, 2lb comfrey, 1lb goldenrod, 1lb woundwort, 5 scented wax candles, flask of holy water, 2 weeks\u2019 iron rations, 7gp"
             },
             "13": {
                 "name": "Death Mistress (Chthonic)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Stiletto",
                 "proficiencies": "Familiar (Python), Knowledge (Occult), Seduction",
                 "equipment": "Python familiar, unholy symbol (medusa\u2019s head), stiletto, black silk cloak, veil, and sash, black silk chiton, long leather gloves, silver bangles (20gp value), silver earrings (20gp), high boots, backpack, 5 black wax candles, 2 weeks\u2019 iron rations, 14gp"
             },
             "14": {
                 "name": "Death Mistress (Chthonic)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Stiletto",
                 "proficiencies": "Familiar (Python), Knowledge (Occult), Seduction",
                 "equipment": "Python familiar, unholy symbol (medusa\u2019s head), stiletto, black silk cloak, veil, and sash, black silk chiton, long leather gloves, silver bangles (20gp value), silver earrings (20gp), high boots, backpack, 5 black wax candles, 2 weeks\u2019 iron rations, 14gp"
             },
             "15": {
                 "name": "Fetishist (Voudon)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Arcane Dabbling, Knowledge (Occult), Craft (Jewelling)",
                 "equipment": "Unholy symbol (green eye surrounded by tentacles), gnarled baobab staff, copper and clay amulet (20gp value), elephant hide cloak, linen breastwrap, loincloth, sandals, backpack, 2 flask of unholy water, 6 torches, craftsman\u2019s tools, 2 weeks\u2019 iron rations, 23gp"
             },
             "16": {
                 "name": "Fetishist (Voudon)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Arcane Dabbling, Knowledge (Occult), Craft (Jewelling)",
                 "equipment": "Unholy symbol (green eye surrounded by tentacles), gnarled baobab staff, copper and clay amulet (20gp value), elephant hide cloak, linen breastwrap, loincloth, sandals, backpack, 2 flask of unholy water, 6 torches, craftsman\u2019s tools, 2 weeks\u2019 iron rations, 23gp"
             },
             "17": {
                 "name": "Faerie Princess (Sylvan)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Elven Bloodline, Riding, Beast Friendship",
                 "equipment": "Holy symbol (flower garland), slender whitewood staff, gossamer head dress (20gp value), white silk dress, colorful silk sash, high boots, light riding horse, riding tack and saddle, saddlebags, 2 weeks\u2019 iron rations, 18gp"
             },
             "18": {
                 "name": "Faerie Princess (Sylvan)",
-                "armor": "Robes",
+                "armor": "Cassock",
+                "weapon": "Staff",
                 "proficiencies": "Elven Bloodline, Riding, Beast Friendship",
                 "equipment": "Holy symbol (flower garland), slender whitewood staff, gossamer head dress (20gp value), white silk dress, colorful silk sash, high boots, light riding horse, riding tack and saddle, saddlebags, 2 weeks\u2019 iron rations, 18gp"
             }
@@ -710,12 +822,14 @@
             "3": {
                 "name": "Hermit",
                 "armor": "Hide Armor",
+                "weapon": "Staff",
                 "proficiencies": "Laying on Hands, Naturalism",
                 "equipment": "Hand-carved wood holy symbol (white lady of Mityara), quarterstaff, itchy wool tunic and pants, sandals, 2 small sacks, 1 week\u2019s iron rations"
             },
             "4": {
                 "name": "Hermit",
                 "armor": "Hide Armor",
+                "weapon": "Staff",
                 "proficiencies": "Laying on Hands, Naturalism",
                 "equipment": "Hand-carved wood holy symbol (white lady of Mityara), quarterstaff, itchy wool tunic and pants, sandals, 2 small sacks, 1 week\u2019s iron rations"
             },
@@ -1114,13 +1228,13 @@
         "templates": {
             "3": {
                 "name": "Outcast",
-                "armor": "Robes",
+                "armor": "Cassock",
                 "proficiencies": "Quiet Magic, Caving, Craft (Leatherwork) 2",
                 "equipment": "Wood and leather holy symbol (leatherworker\u2019s insignia), hand axe, hide tunic and pants, leather belt, low boots, backpack, tinderbox, 12 torches, 1 week\u2019s iron rations, 1gp"
             },
             "4": {
                 "name": "Outcast",
-                "armor": "Robes",
+                "armor": "Cassock",
                 "proficiencies": "Quiet Magic, Caving, Craft (Leatherwork) 2",
                 "equipment": "Wood and leather holy symbol (leatherworker\u2019s insignia), hand axe, hide tunic and pants, leather belt, low boots, backpack, tinderbox, 12 torches, 1 week\u2019s iron rations, 1gp"
             },
@@ -1215,13 +1329,13 @@
         "templates": {
             "3": {
                 "name": "Exile",
-                "armor": "Robes",
+                "armor": "Cassock",
                 "proficiencies": "Running, Survival, Navigation",
                 "equipment": "Tattered spellbook with darkness and slipperiness, shortbow, quiver with 20 arrows, old short sword, dagger, threadbare tunic and pants, leather belt, low boots, backpack, 1 week\u2019s iron rations"
             },
             "4": {
                 "name": "Exile",
-                "armor": "Robes",
+                "armor": "Cassock",
                 "proficiencies": "Running, Survival, Navigation",
                 "equipment": "Tattered spellbook with darkness and slipperiness, shortbow, quiver with 20 arrows, old short sword, dagger, threadbare tunic and pants, leather belt, low boots, backpack, 1 week\u2019s iron rations"
             },
@@ -1418,13 +1532,13 @@
         "templates": {
             "3": {
                 "name": "Errant",
-                "armor": "Robes",
+                "armor": "Cassock",
                 "proficiencies": "Running, Survival",
                 "equipment": "Hand-carved wood holy symbol (gallery of Naurivus), morning star, peasant\u2019s wool tunic and pants, sandals, 2 small sacks, 2 weeks\u2019 iron rations"
             },
             "4": {
                 "name": "Errant",
-                "armor": "Robes",
+                "armor": "Cassock",
                 "proficiencies": "Running, Survival",
                 "equipment": "Hand-carved wood holy symbol (gallery of Naurivus), morning star, peasant\u2019s wool tunic and \npants, sandals, 2 small sacks, 2 weeks\u2019 iron rations"
             },
@@ -1569,37 +1683,37 @@
                 "name": "Druid",
                 "armor": "Leather Armor",
                 "proficiencies": "Beast Friendship, Naturalism, Divine Blessing",
-                "equipment": "Raven totem animal, holy symbol (golden sickle), whitewood spear, sickle sword, dagger, shield, leather armor under white druid\u2019s robes, leather belt, low boots, backpack, flask of holy water, 1lb garlic, 1lb wolfsbane, 2 weeks\u2019 iron rations, 1gp"
+                "equipment": "Raven totem animal, holy symbol (golden sickle), whitewood spear, sickle sword, dagger, shield, leather armor under white druid\u2019s Cassock, leather belt, low boots, backpack, flask of holy water, 1lb garlic, 1lb wolfsbane, 2 weeks\u2019 iron rations, 1gp"
             },
             "12": {
                 "name": "Druid",
                 "armor": "Leather Armor",
                 "proficiencies": "Beast Friendship, Naturalism, Divine Blessing",
-                "equipment": "Raven totem animal, holy symbol (golden sickle), whitewood spear, sickle sword, dagger, shield, leather armor under white druid\u2019s robes, leather belt, low boots, backpack, flask of holy water, 1lb garlic, 1lb wolfsbane, 2 weeks\u2019 iron rations, 1gp"
+                "equipment": "Raven totem animal, holy symbol (golden sickle), whitewood spear, sickle sword, dagger, shield, leather armor under white druid\u2019s Cassock, leather belt, low boots, backpack, flask of holy water, 1lb garlic, 1lb wolfsbane, 2 weeks\u2019 iron rations, 1gp"
             },
             "13": {
                 "name": "Snake Handler",
                 "armor": "Leather Armor",
                 "proficiencies": "Divine Health, Healing, Laying on Hands",
-                "equipment": "Python totem animal, holy symbol (two snakes coiled around rod), long staff, 2 daggers, leather armor under forest green robes, leather belt, low boots, backpack, 2lb birthwort, 2lb comfrey, 2lb goldenrod, 2lb woundwort, 1 week\u2019s iron rations"
+                "equipment": "Python totem animal, holy symbol (two snakes coiled around rod), long staff, 2 daggers, leather armor under forest green Cassock, leather belt, low boots, backpack, 2lb birthwort, 2lb comfrey, 2lb goldenrod, 2lb woundwort, 1 week\u2019s iron rations"
             },
             "14": {
                 "name": "Snake Handler",
                 "armor": "Leather Armor",
                 "proficiencies": "Divine Health, Healing, Laying on Hands",
-                "equipment": "Python totem animal, holy symbol (two snakes coiled around rod), long staff, 2 daggers, leather armor under forest green robes, leather belt, low boots, backpack, 2lb birthwort, 2lb comfrey, 2lb goldenrod, 2lb woundwort, 1 week\u2019s iron rations"
+                "equipment": "Python totem animal, holy symbol (two snakes coiled around rod), long staff, 2 daggers, leather armor under forest green Cassock, leather belt, low boots, backpack, 2lb birthwort, 2lb comfrey, 2lb goldenrod, 2lb woundwort, 1 week\u2019s iron rations"
             },
             "15": {
                 "name": "Spirit Raiser",
                 "armor": "Leather Armor",
                 "proficiencies": "Sensing Evil, Leadership, Command",
-                "equipment": "Eagle totem animal, holy symbol (eagle on sun), quarterstaff, dagger, leather armor under blue robes, leather belt, low boots, backpack, 3 flasks of holy water, tinderbox, 6 tallow candles, 4lb garlic, 1 week\u2019s iron rations"
+                "equipment": "Eagle totem animal, holy symbol (eagle on sun), quarterstaff, dagger, leather armor under blue Cassock, leather belt, low boots, backpack, 3 flasks of holy water, tinderbox, 6 tallow candles, 4lb garlic, 1 week\u2019s iron rations"
             },
             "16": {
                 "name": "Spirit Raiser",
                 "armor": "Leather Armor",
                 "proficiencies": "Sensing Evil, Leadership, Command",
-                "equipment": "Eagle totem animal, holy symbol (eagle on sun), quarterstaff, dagger, leather armor under blue robes, leather belt, low boots, backpack, 3 flasks of holy water, tinderbox, 6 tallow candles, 4lb garlic, 1 week\u2019s iron rations"
+                "equipment": "Eagle totem animal, holy symbol (eagle on sun), quarterstaff, dagger, leather armor under blue Cassock, leather belt, low boots, backpack, 3 flasks of holy water, tinderbox, 6 tallow candles, 4lb garlic, 1 week\u2019s iron rations"
             },
             "17": {
                 "name": "Nomad Shaman",
@@ -1781,15 +1895,15 @@
             },
             "13": {
                 "name": "Gladiator",
-                "armor": "Lamellar Armor",
+                "armor": "Lamellar",
                 "proficiencies": "Weapon Focus (Swords and Daggers), Gambling",
-                "equipment": "2 gilded swords, lamellar armor, plumed heavy helmet with visor and crest, armiger\u2019s tunic and pants, sandals, small sack, amphora of oil (for polishing body), 2 weeks\u2019 iron rations, 13gp in arena winnings"
+                "equipment": "2 gilded swords, Lamellar, plumed heavy helmet with visor and crest, armiger\u2019s tunic and pants, sandals, small sack, amphora of oil (for polishing body), 2 weeks\u2019 iron rations, 13gp in arena winnings"
             },
             "14": {
                 "name": "Gladiator",
-                "armor": "Lamellar Armor",
+                "armor": "Lamellar",
                 "proficiencies": "Weapon Focus (Swords and Daggers), Gambling",
-                "equipment": "2 gilded swords, lamellar armor, plumed heavy helmet with visor and crest, armiger\u2019s tunic and pants, sandals, small sack, amphora of oil (for polishing body), 2 weeks\u2019 iron rations, 13gp in arena winnings"
+                "equipment": "2 gilded swords, Lamellar, plumed heavy helmet with visor and crest, armiger\u2019s tunic and pants, sandals, small sack, amphora of oil (for polishing body), 2 weeks\u2019 iron rations, 13gp in arena winnings"
             },
             "15": {
                 "name": "Legionary",

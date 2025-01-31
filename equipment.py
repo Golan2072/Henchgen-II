@@ -5,6 +5,6 @@ class Item:
         self.name = "Default"
         self.ac = 0
         self.type = "Default"
-        self.damage = (0,0)
+        self.damage = "None"
         self.encumbrance = 0
         self.magical = False

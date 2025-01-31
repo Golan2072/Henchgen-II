@@ -5,22 +5,27 @@ import random
 import json
 import equipment
 
+
 class Template:
-    def __init__(self):
+    def __init__(self, equipment_dict):
         self.name = "Default"
-        self.armor = "Default"
-        self.proficiencies = ""
-        self.equipment = ""
+        self.equipment_dict = equipment_dict
+        self.armor = self.equipment_dict["Tunic"]
+        self.weapon = self.equipment_dict["Staff"]
+        self.proficiencies = {}
+        self.equipment = {}
+
 
 class Character:
     def __init__(self, level):
         self.load_equipment()
         self.level = level
+        self.shield = False
         self.hp = 1
-        self.weapon = self.equipment_dict["Default"]
-        self.armor = self.equipment_dict["Robes"]
+        self.weapon = self.equipment_dict["Staff"]
+        self.armor = self.equipment_dict["Tunic"]
         self.ac = 0
-        self. damage = (0,0)
+        self. damage = "1d6"
         self.class_type = "Martial"
         self.sex = random.choice(["Male", "Female"])
         self.generate_abilities()
@@ -30,43 +35,81 @@ class Character:
         self.hp_gen()
         self.name_gen()
         self.load_templates()
-        self.equip_armor(self.template.armor)
 
     def load_equipment(self):
         with open("data/equipment.json", "r") as equipment_file:
             self.equipment_source_dict = json.load(equipment_file)
         self.equipment_dict = {}
         for item in self.equipment_source_dict:
-            self.equipment_dict[self.equipment_source_dict[item]["name"]] = equipment.Item()
-            self.equipment_dict[self.equipment_source_dict[item]["name"]].name = self.equipment_source_dict[item]["name"]
-            self.equipment_dict[self.equipment_source_dict[item]["name"]].damage = (self.equipment_source_dict[item]["damage"]["number"], self.equipment_source_dict[item]["damage"]["sides"])
-            self.equipment_dict[self.equipment_source_dict[item]["name"]].type = self.equipment_source_dict[item]["type"]
-            self.equipment_dict[self.equipment_source_dict[item]["name"]].ac = self.equipment_source_dict[item]["ac"]
-            self.equipment_dict[self.equipment_source_dict[item]["name"]].encumbrance = self.equipment_source_dict[item]["encumbrance"]
+            self.equipment_dict[self.equipment_source_dict[item]
+                                ["name"]] = equipment.Item()
+            self.equipment_dict[self.equipment_source_dict[item]
+                                ["name"]].name = self.equipment_source_dict[item]["name"]
+            self.equipment_dict[self.equipment_source_dict[item]["name"]].damage = self.equipment_source_dict[item]["damage"]
+            self.equipment_dict[self.equipment_source_dict[item]
+                                ["name"]].type = self.equipment_source_dict[item]["type"]
+            self.equipment_dict[self.equipment_source_dict[item]
+                                ["name"]].ac = self.equipment_source_dict[item]["ac"]
+            self.equipment_dict[self.equipment_source_dict[item]["name"]
+                                ].encumbrance = self.equipment_source_dict[item]["encumbrance"]
             if self.equipment_source_dict[item]["magical"] == "True":
-                self.equipment_dict[self.equipment_source_dict[item]["name"]].magical = True
+                self.equipment_dict[self.equipment_source_dict[item]
+                                    ["name"]].magical = True
             elif self.equipment_source_dict[item]["magical"] == "False":
-                self.equipment_dict[self.equipment_source_dict[item]["name"]].magical = False
+                self.equipment_dict[self.equipment_source_dict[item]
+                                    ["name"]].magical = False
 
     def load_templates(self):
-        with open("data/char_database.json", "r") as template_file:
-            self.template_source_dict = json.load(template_file)
             if self.level >= 1:
-                roll = utility.dice(3,6)
-                self.template = Template()
-                self.template.name = self.template_source_dict[self.charclass]["templates"][str(roll)]["name"]
+                with open("data/char_database.json", "r") as template_file:
+                    self.template_source_dict = json.load(template_file)
+                roll = utility.dice(3, 6)
+                self.template = Template(self.equipment_dict)
+                self.template.name = self.template_source_dict[self.charclass]["templates"][str(
+                    roll)]["name"]
                 if "armor" in self.template_source_dict[self.charclass]["templates"][str(roll)].keys():
-                    self.template.armor = self.template_source_dict[self.charclass]["templates"][str(roll)]["armor"]
+                    self.armor = self.equipment_dict[self.template_source_dict[self.charclass]["templates"][str(
+                        roll)]["armor"]]
                 else:
-                    self.template.armor = "Robes"
-                self.template.proficiencies = self.template_source_dict[self.charclass]["templates"][str(roll)]["proficiencies"]
-                self.template.equipment = self.template_source_dict[self.charclass]["templates"][str(roll)]["equipment"]
+                    pass
+                self.ac = self.armor.ac
+                if "weapon" in self.template_source_dict[self.charclass]["templates"][str(roll)]:
+                    self.weapon = self.equipment_dict[self.template_source_dict[self.charclass]["templates"][str(
+                        roll)]["weapon"]]
+                else:
+                    pass
+                self.damage = self.weapon.damage
+                self.template.proficiencies = self.template_source_dict[self.charclass]["templates"][str(
+                    roll)]["proficiencies"]
+                self.template.equipment = self.template_source_dict[self.charclass]["templates"][str(
+                    roll)]["equipment"]
             else:
-                self.template = Template()
-                self.template.name = ""
-                self.template.armor = "Robes"
+                with open("data/zero_level_database.json", "r") as template_file:
+                    self.template_source_dict = json.load(template_file)
+                self.template = Template(self.equipment_dict)
+                self.template.name = random.choice(list(self.template_source_dict[self.charclass].keys()))
+                if "armor" in self.template_source_dict[self.charclass][self.template.name]:
+                    self.armor = self.equipment_dict[self.template_source_dict[self.charclass][self.template.name]["armor"]]
+                else:
+                    pass
+                if "weapon" in self.template_source_dict[self.charclass][self.template.name]:
+                    self.weapon = self.equipment_dict[self.template_source_dict[self.charclass][self.template.name]["weapon"]]
+                else:
+                    pass
+                if "shield" in self.template_source_dict[self.charclass][self.template.name]:
+                    if self.template_source_dict[self.charclass][self.template.name]["shield"] == "True":
+                        self.shield = True
+                    else:
+                        self.shield = False
+                else:
+                    self.shield = False
+                self.ac = self.armor.ac
+                if self.shield:
+                    self.ac += 1
+                self.damage = self.weapon.damage
                 self.template.proficiencies = {}
                 self.template.equipment = ""
+                self.charclass = self.template.name
 
     def generate_abilities(self):
         self.strength = utility.dice(3, 6)
@@ -118,12 +161,9 @@ class Character:
 
     def class_chooser(self):
         if self.level == 0:
-            self.class_category = random.choice(["Laborer", "Artisan", "Artisan", "Merchant", "Merchant",
-                                                "Specialist", "Hosteller", "Entertainer", "Mercenary", "Mercenary", "Ecclestiac", "Magician"])
-            normal_man_dict = {"Laborer": ["Barber", "Bath Attendant", "Bricklayer", "Cook", "Dockworker", "Launderer", "Rower", "Gongfarmer", "Hawker", "Stablehand", "Servant", "Prostitute", "Ratcatcher", "Roofer", "Sailor", "Scullion", "Woodcutter", "Teamster", "Tavenworker", "Unskilled Laborer"], "Artisan": ["Clothmaker", "Cobbler", "Confectioner", "Cooper", "Coppersmith", "Ropemaker", "Decorative Artist", "Florist", "Gemcutter", "Glassworker", "Goldsmith", "Hornworker", "Illuminator", "Jeweler", "Locksmith", "Mason", "Parchmentmaker", "Perfumer", "Potter", "Saddler", "Scribe", "Shipwright", "Silversmith", "Spinner", "Tailor", "Tanner", "Taxidermist", "Tinker", "Wainwright", "Weaponsmith", "Wheelwright"], "Merchant": ["Bookseller", "Chandler", "Coppermonger", "Cornmonger", "Draper", "Fishmonger", "Fripperer", "Furrier", "Greengrocer", "Horsemonger", "Ironmonger", "Lawyer", "Lumbermonger", "Mercer", "Oilmonger", "Skinner",
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           "Poulterer", "Salter", "Vintner"], "Specialist": ["Alchemist", "Animal Trainer", "Artillerist", "Engineer", "Healer", "Marshal", "Navigator", "Quartermaster", "Sage", "Siege Engineer", "Ship Captain"], "Hosteller": ["Brothelkeeper", "Cantinakeeper", "Innkeeper", "Tavernkeeper"], "Entertainer": ["Actor", "Dancer", "Musician", "Singer", "Carouser"], "Mercenary": ["Light Infantry", "Heavy Infantry", "Slinger", "Bowman", "Crossbowman", "Composite Bowman", "Longbowman", "Light Cavalry", "Mounted Crossbowman", "Horse Archer", "Medium Cavalry", "Heavy Cavalry", "Cataphract Cavalry", "Camel Archer", "Camel Lancer"], "Ecclestiac": ["Missionary", "Anchorite", "Heretic", "Medician", "Inquisitor", "Oracle", "Sacred Courtesan", "Seminarian", "Village Witch"], "Magician": ["Apprentice Mage", "Apprentice Warlock", "Astrologer", "Augur", "Charlatan", "Failed Apprentice", "Hedge Magician", "Occultist", "Prestidigitator"]}
-            self.charclass = random.choice(
-                normal_man_dict[self.class_category])
+            self.class_category = random.choice(["Laborer", "Artisan", "Merchant",
+                                                "Specialist", "Hosteller", "Entertainer", "Mercenary", "Mercenary", "Mercenary", "Mercenary", "Mercenary", "Ecclestiac", "Magician"])
+            self.charclass = self.class_category
         elif self.level > 0:
             if self.race == "Nobiran":
                 self.charclass = "Wonderworker"
@@ -145,7 +185,7 @@ class Character:
                 elif self.race == "Dwarf":
                     self.charclass = "Vaultguard"
                 elif self.race == "Elf":
-                    self.charclass == "Nightblade"
+                    self.charclass = "Nightblade"
             elif self.class_type == "Arcane":
                 if self.race == "Human":
                     self.charclass = random.choice(["Mage", "Warlock"])
@@ -183,10 +223,11 @@ class Character:
             if self.hp < 1:
                 self.hp = 1
         elif self.level >= 1:
-            self.hp = utility.dice(self.level, class_hd_dict[self.charclass]) + self.constitution_modifier * self.level
+            self.hp = utility.dice(
+                self.level, class_hd_dict[self.charclass]) + self.constitution_modifier * self.level
             if self.hp < 1:
                 self.hp = 1
-    
+
     def name_gen(self):
         if self.race == "Human":
             if self.sex == "Male":
@@ -213,10 +254,3 @@ class Character:
                 self.name = utility.random_line("data/malenames.txt")
             elif self.sex == "Female":
                 self.name = utility.random_line("data/femalenames.txt")
-    
-    def equip_armor(self, armor):
-        self.armor = self.equipment_dict[armor]
-        self.ac = self.armor.ac
-
-    def template_chooser(self):
-        self.template = self.template_dict[self.charclass][str(utility.dice(3, 6))]

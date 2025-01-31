@@ -60,7 +60,7 @@
             "number": 0,
             "sides": 0
         },
-        "encumbrance": 1,
+        "encumbrance": 0,
         "magical": "False"
     }, "chain mail": {
         "name": "Chain Mail",
@@ -72,8 +72,8 @@
         },
         "encumbrance": 4,
         "magical": "False"
-    }, "lamellar armor": {
-        "name": "Lamellar Armor",
+    }, "Lamellar": {
+        "name": "Lamellar",
         "ac": 5,
         "type": "Armor",
         "damage": {
@@ -83,7 +83,7 @@
         "encumbrance": 5,
         "magical": "False"
     }, "plate armor": {
-        "name": "Lamellar Armor",
+        "name": "Plate Armor",
         "ac": 6,
         "type": "Armor",
         "damage": {
@@ -102,7 +102,7 @@
         },
         "encumbrance": 5,
         "magical": "False"
-    }, "sheild": {
+    }, "shield": {
         "name": "Shield",
         "ac": 1,
         "type": "Armor",
@@ -110,6 +110,173 @@
             "number": 0,
             "sides": 0
         },
+        "encumbrance": 1,
+        "magical": "False"
+    }, "tunic": {
+        "name": "Tunic",
+        "ac": 0,
+        "type": "Armor",
+        "damage": {
+            "number": 0,
+            "sides": 0
+        },
+        "encumbrance": 0,
+        "magical": "False"
+    }, "Cassock": {
+        "name": "Cassock",
+        "ac": 0,
+        "type": "Armor",
+        "damage": {
+            "number": 0,
+            "sides": 0
+        },
+        "encumbrance": 0,
+        "magical": "False"
+    },"staff": {
+        "name": "Staff",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d6",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "dagger": {
+        "name": "Dagger",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d4",
+        "encumbrance": 0,
+        "magical": "False"
+    }, "short sword": {
+        "name": "Short Sword",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d6",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "scimitar": {
+        "name": "Scimitar",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d6",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "battle axe": {
+        "name": "Battle Axe",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d8",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "stiletto": {
+        "name": "Stiletto",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d4",
+        "encumbrance": 0,
+        "magical": "False"
+    }, "razor": {
+        "name": "Razor",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d4",
+        "encumbrance": 0,
+        "magical": "False"
+    }, "hammer": {
+        "name": "Hammer",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d6",
+        "encumbrance": 0,
+        "magical": "False"
+    }, "chef's knife": {
+        "name": "Chef's Knife",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d4",
+        "encumbrance": 0,
+        "magical": "False"
+    }, "oar": {
+        "name": "Oar",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d6",
+        "encumbrance": 0,
+        "magical": "False"
+    }, "whip": {
+        "name": "Whip",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d2",
+        "encumbrance": 0,
+        "magical": "False"
+    }, "handaxe": {
+        "name": "Handaxe",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d6",
+        "encumbrance": 0,
+        "magical": "False"
+    }, "hook": {
+        "name": "Hook",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d4",
+        "encumbrance": 0,
+        "magical": "False"
+    },"spear": {
+        "name": "Spear",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d6",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "sling": {
+        "name": "Sling",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d4",
+        "encumbrance": 0,
+        "magical": "False"
+    }, "short bow": {
+        "name": "Short Bow",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d6",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "crossbow": {
+        "name": "Crossbow",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d8",
+        "encumbrance":10,
+        "magical": "False"
+    }, "long bow": {
+        "name": "Long Bow",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d8",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "composite bow": {
+        "name": "Composite Bow",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d8",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "sword": {
+        "name": "Sword",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d8",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "lance": {
+        "name": "Lance",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d8",
         "encumbrance": 1,
         "magical": "False"
     }}
