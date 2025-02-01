@@ -40,9 +40,3 @@ def random_line(filename):
         line = random.choice(line_list.readlines())
         line = line.strip()
     return line
-
-
-def list_stringer(input_list):
-    output_list = []
-    for item in input_list:
-        output_list.append(str(item))

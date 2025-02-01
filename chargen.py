@@ -35,6 +35,8 @@ class Character:
         self.hp_gen()
         self.name_gen()
         self.load_templates()
+        self.proficiency_string = ", ".join (self.proficiencies)
+        self.equipment_string = ", ".join (self.equipment)
 
     def load_equipment(self):
         with open("data/equipment.json", "r") as equipment_file:
@@ -89,9 +91,9 @@ class Character:
                 self.ac = self.armor.ac
                 if self.shield:
                     self.ac += 1
-                self.template.proficiencies = self.template_source_dict[self.charclass]["templates"][str(
+                self.proficiencies = self.template_source_dict[self.charclass]["templates"][str(
                     roll)]["proficiencies"]
-                self.template.equipment = self.template_source_dict[self.charclass]["templates"][str(
+                self.equipment = self.template_source_dict[self.charclass]["templates"][str(
                     roll)]["equipment"]
             else:
                 with open("data/zero_level_database.json", "r") as template_file:
@@ -117,8 +119,8 @@ class Character:
                 if self.shield:
                     self.ac += 1
                 self.damage = self.weapon.damage
-                self.template.proficiencies = {}
-                self.template.equipment = ""
+                self.proficiencies = {}
+                self.equipment = ""
                 self.charclass = self.template.name
 
     def generate_abilities(self):

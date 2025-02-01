@@ -16,7 +16,7 @@
         "Roofer": {"armor": "Tunic", "weapon": "Dagger", "shield": "False"},
         "Sailor": {"armor": "Tunic", "weapon": "Scimitar", "shield": "False"},
         "Scullion": {"armor": "Tunic", "weapon": "Dagger", "shield": "False"},
-        "Woodcutter": {"armor": "Tunic", "weapon": "Handaxe", "shield": "False"},
+        "Woodcutter": {"armor": "Tunic", "weapon": "Hand Axe", "shield": "False"},
         "Teamster": {"armor": "Tunic", "weapon": "Whip"}, "shield": "False",
         "Tavenworker": {"armor": "Tunic", "weapon": "Dagger", "shield": "False"},
         "Unskilled Laborer": {"armor": "Tunic", "weapon": "Staff", "shield": "False"}
@@ -67,7 +67,7 @@
         "Horsemonger": {"armor": "Tunic", "weapon": "Dagger", "shield": "False"},
         "Ironmonger": {"armor": "Tunic", "weapon": "Dagger", "shield": "False"},
         "Lawyer": {"armor": "Tunic", "weapon": "Dagger", "shield": "False"},
-        "Lumbermonger": {"armor": "Tunic", "weapon": "Handaxe", "shield": "False"},
+        "Lumbermonger": {"armor": "Tunic", "weapon": "Hand Axe", "shield": "False"},
         "Mercer": {"armor": "Tunic", "weapon": "Dagger", "shield": "False"},
         "Oilmonger": {"armor": "Tunic", "weapon": "Dagger", "shield": "False"},
         "Skinner": {"armor": "Tunic", "weapon": "Dagger", "shield": "False"},
