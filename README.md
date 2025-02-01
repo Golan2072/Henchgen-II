@@ -3,7 +3,11 @@ Henchman generator for the ACKS II TTRPG
 
 By Omer Golan-Joel, golan2072@gmail.com
 
-v0.3.6 - February 2nd, 2025
+v0.4 - February 1st, 2025
+- Implemented proficiencies and equipment for classes characters.
+- Proficiencies and character equipment are now handled as lists rather than strings in the data-files, to facilitate later manipulation.
+
+v0.3.6 - February 1st, 2025
 - Implemented shields for all characters.
 - Implemented weapons for all characters.
 
