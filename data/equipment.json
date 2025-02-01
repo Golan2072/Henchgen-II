@@ -209,8 +209,8 @@
         "damage": "1d2",
         "encumbrance": 0,
         "magical": "False"
-    }, "handaxe": {
-        "name": "Handaxe",
+    }, "hand Axe": {
+        "name": "Hand Axe",
         "ac": 0,
         "type": "Weapon",
         "damage": "1d6",
@@ -274,6 +274,76 @@
         "magical": "False"
     }, "lance": {
         "name": "Lance",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d8",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "mace": {
+        "name": "Mace",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d6",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "javelin": {
+        "name": "Javelin",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d6",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "glaive": {
+        "name": "Glaive",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d10",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "morning star": {
+        "name": "Morning Star",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d10",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "flail": {
+        "name": "Flail",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d6",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "two-handed sword": {
+        "name": "Two-Handed Sword",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d10",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "ball-and-chain": {
+        "name": "Ball-and-Chain",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d6",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "club": {
+        "name": "Club",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d6",
+        "encumbrance": 1,
+        "magical": "False" 
+    }, "great axe": {
+        "name": "Great Axe",
+        "ac": 0,
+        "type": "Weapon",
+        "damage": "1d10",
+        "encumbrance": 1,
+        "magical": "False"
+    }, "arbalest": {
+        "name": "Arbalest",
         "ac": 0,
         "type": "Weapon",
         "damage": "1d8",

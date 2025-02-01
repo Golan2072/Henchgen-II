@@ -79,6 +79,16 @@ class Character:
                 else:
                     pass
                 self.damage = self.weapon.damage
+                if "shield" in self.template_source_dict[self.charclass]["templates"][str(roll)]:
+                    if self.template_source_dict[self.charclass]["templates"][str(roll)]["shield"] == "True":
+                        self.shield = True
+                    else:
+                        self.shield = False
+                else:
+                    self.shield = False
+                self.ac = self.armor.ac
+                if self.shield:
+                    self.ac += 1
                 self.template.proficiencies = self.template_source_dict[self.charclass]["templates"][str(
                     roll)]["proficiencies"]
                 self.template.equipment = self.template_source_dict[self.charclass]["templates"][str(
